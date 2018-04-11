@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HorrorSpielLOL", "HorrorSpielLOL.csproj", "{2486E840-0B3F-9655-95BD-B54AA7FAAE66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HorrorSpielLOL.Plugins", "HorrorSpielLOL.Plugins.csproj", "{D6C02AE2-019C-EB48-DD16-DF4A0C88635C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HorrorSpielLOL.Editor", "HorrorSpielLOL.Editor.csproj", "{13C3A5C2-9F92-ACEB-394D-D5284A01547B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HorrorSpielLOL.Editor.Plugins", "HorrorSpielLOL.Editor.Plugins.csproj", "{13B50A48-4E1B-386D-B774-093677A7CDDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2486E840-0B3F-9655-95BD-B54AA7FAAE66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2486E840-0B3F-9655-95BD-B54AA7FAAE66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2486E840-0B3F-9655-95BD-B54AA7FAAE66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2486E840-0B3F-9655-95BD-B54AA7FAAE66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6C02AE2-019C-EB48-DD16-DF4A0C88635C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6C02AE2-019C-EB48-DD16-DF4A0C88635C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6C02AE2-019C-EB48-DD16-DF4A0C88635C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6C02AE2-019C-EB48-DD16-DF4A0C88635C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13C3A5C2-9F92-ACEB-394D-D5284A01547B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13C3A5C2-9F92-ACEB-394D-D5284A01547B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13C3A5C2-9F92-ACEB-394D-D5284A01547B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13C3A5C2-9F92-ACEB-394D-D5284A01547B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13B50A48-4E1B-386D-B774-093677A7CDDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13B50A48-4E1B-386D-B774-093677A7CDDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13B50A48-4E1B-386D-B774-093677A7CDDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13B50A48-4E1B-386D-B774-093677A7CDDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
