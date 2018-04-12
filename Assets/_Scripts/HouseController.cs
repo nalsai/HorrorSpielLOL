@@ -1,8 +1,8 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class HouseController : MonoBehaviour {
+public class HouseController : MonoBehaviour
+{
 
     public Dialogue EntranceDialogue;
     public Dialogue ScreamDialogue;
@@ -13,21 +13,16 @@ public class HouseController : MonoBehaviour {
     public GameObject DialogueBox;
     public DialogueManager DialogueM;
 
-    void Start ()
+    void Start()
     {
         Flashlight.SetActive(false);
         StartCoroutine(Entrance());
     }
-	
-	void Update ()
+
+    void Update()
     {
 
     }
-
-    //void OnTriggerEnter(Collider ScreamTrigger)
-    //{
-        //StartCoroutine(ScreamD());
-    //}
 
     IEnumerator Entrance()
     {

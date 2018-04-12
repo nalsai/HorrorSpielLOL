@@ -485,7 +485,6 @@
     <None Include="Assets\_Exterior\Graves\Gravestone Pack 10 vol.2\Grave_18\readme.txt" />
     <None Include="Assets\_Exterior\water well\readme.txt" />
     <None Include="Assets\_Interior\Doors\Shader\BloodyDoor.shader" />
-    <None Include="Assets\readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

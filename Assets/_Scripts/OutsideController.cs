@@ -62,8 +62,7 @@ public class OutsideController : MonoBehaviour
 
     IEnumerator ChangeScene()
     {
-        float fadeTime = GetComponent<Fading>().BeginFade(1);
-        yield return new WaitForSeconds(fadeTime);
+        yield return new WaitForSeconds(0);
         SceneManager.LoadScene("house");
     }
 

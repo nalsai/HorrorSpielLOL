@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class End : MonoBehaviour
 {
-    
+
     private void OnTriggerEnter(Collider other)
     {
         StartCoroutine(ChangeScene());
@@ -12,9 +12,7 @@ public class End : MonoBehaviour
 
     IEnumerator ChangeScene()
     {
-        //float fadeTime = GetComponent<Fading>().BeginFade(1);
-        //yield return new WaitForSeconds(fadeTime);
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0);
         SceneManager.LoadScene("end");
     }
 }
