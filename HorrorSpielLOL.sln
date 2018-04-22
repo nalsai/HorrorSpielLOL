@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
+# Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HorrorSpielLOL", "HorrorSpielLOL.csproj", "{2486E840-0B3F-9655-95BD-B54AA7FAAE66}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HorrorSpielLOL.Plugins", "HorrorSpielLOL.Plugins.csproj", "{D6C02AE2-019C-EB48-DD16-DF4A0C88635C}"
